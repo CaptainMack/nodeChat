@@ -63,5 +63,5 @@ app.get('/', function (req, res) {
     res.sendfile(__dirname + '/index.html');
 });
 
-app.listen(80, '127.0.0.1');
+app.listen(80, '192.168.0.196');
 console.log('Node started listening on port 80');
